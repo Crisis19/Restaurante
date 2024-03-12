@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva en el Restaurante</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://comidaglobal.net/wp-content/uploads/2023/09/bandeja-paisa.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="text-center">Bienvenidos a Fredy parrilla el chorizo maravilla</h4>
+        </div>
+        <div class="card-body">
+          <form action="continuar/" method="POST"> {% csrf_token %}
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="form-group">
+              <label for="num_mesa">Número de Mesa:</label>
+              <input type="number" class="form-control" id="num_mesa" placeholder="Ingrese el número de mesa en la que se encuentra">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Continuar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

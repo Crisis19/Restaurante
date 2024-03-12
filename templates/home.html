@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fredy Chorizo Parrilla - Menú</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      margin-bottom: 20px;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("https://cdn.pixabay.com/photo/2017/10/29/19/15/fire-2900588_640.jpg");
+      background-size: cover;
+      background-position: center;
+      color: #000000;
+      overflow-y: auto;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+    .card-title {
+      margin-top: -10px;
+    }
+
+
+     /* Agregamos la capa gris transparente */
+     html::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor alpha (0.5) según lo desees */
+      z-index: -1; /* Para que esté detrás del contenido */
+    }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    margin-right: 0px; /* Agrega un margen derecho para separar las tarjetas */
+    margin-bottom: 20px; /* Agrega un margen inferior para separar las filas */
+    min-height: 550px; /* Establece una altura mínima para las tarjetas */
+}
+    /* Estilos para el encabezado */
+    header {
+        
+        
+      background-image: url('https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_640.jpg');
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+      background-size: contain;
+      background-position: center;
+      height: 263px;
+    }
+    
+    /* Estilos para ajustar el espacio debajo del encabezado */
+    .container {
+      margin-top: 130px; /* Ajusta este valor según la altura de tu encabezado */
+    }
+
+    .almuerce-pues {
+      color: #ffffff;
+    }
+
+    .sopitas {
+      color: #ffffff;
+    }
+
+    .Fredy-parrilla {
+      color: #ffffff;
+    }
+
+    .Especialidades {
+      color: #ffffff;
+    }
+
+    .Peces {
+      color: #ffffff;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<header id="home" class="header">
+    <div class="overlay text-white text-center">
+        <h1 class="display-4 font-weight-bold my-3">Chorizo Parrilla</h1>
+        <h2 class="display-5 mb-5"> ¡La mejor comida paisa!</h2>
+    </div>
+</header>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="almuerce-pues">Desayune pues!</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://polloslariviera.com/wp-content/uploads/2022/10/LA-RIVIERA__CALDO-DE-COSTILLA.jpg" alt="Plato 1">
+        <div class="card-body">
+          <h5 class="card-title">Caldo de costilla</h5>
+          <p class="card-text">Caldo de costilla</p>
+          <p class="card-text">Precio: $9.700</p>
+          <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://boquisabroso.com.co/wp-content/uploads/2023/12/Receta-de-Calentado-Paisa.jpg" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Calentado paisa</h5>
+            <p class="card-text">Calentado de arroz y frijoles, arepa con queso, chicharrón, carne, huevo</p>
+            <p class="card-text">Precio: $38.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://imag.bonviveur.com/arepas-colombianas-con-queso-partidas.jpg" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Arepa con queso</h5>
+            <p class="card-text">Arepa con queso</p>
+            <p class="card-text">Precio: $6.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://okdiario.com/img/2021/02/05/huevos-revueltos-1.jpg" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Huevos revueltos</h5>
+            <p class="card-text">Huevos revueltos</p>
+            <p class="card-text">Precio: $5.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Huevos fritos</h5>
+            <p class="card-text">Huevos fritos</p>
+            <p class="card-text">Precio: $5.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://thriftandspice.com/wp-content/uploads/2018/07/colombian-scrambled-eggs.jpg" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Huevos pericos</h5>
+            <p class="card-text">Huevos pericos</p>
+            <p class="card-text">Precio: $5.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://wapa.cronosmedia.glr.pe/migration/imagen/2019/10/02/noticia-1570054071-huevos-1.png" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Huevos con mazorca</h5>
+            <p class="card-text">Huevos con mazorca</p>
+            <p class="card-text">Precio: $7.500</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://www.ladanesa.com.ec/img/receta-huevo-revuelto.jpg" alt="Plato 3">
+          <div class="card-body">
+            <h5 class="card-title">Huevos rancheros</h5>
+            <p class="card-text">Huevos rancheros</p>
+            <p class="card-text">Precio: $7.500</p>
+            <a href="pagina_plato_3.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<!-- ALMUERCE PUES -->
+
+
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="almuerce-pues">Almuerce pues</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://media.istockphoto.com/id/1283554454/es/foto/bandeja-paisa-a-typical-dish-in-the-antioque%C3%B1a-region-of-colombia.jpg?s=612x612&w=0&k=20&c=xJ7oVuh_82MmP6cxZOKTC0Bs5z5BgpgoNICumXrXYIY=" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Bandeja paisa</h5>
+                <p class="card-text">Arroz, fríjoles, carne molida, chicharrón, chorizo, morcilla, huevo, aguacate, arepa, plátano maduro.</p>
+                <p class="card-text">Precio: $43.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/310429434_892948065422261_3566773471960711106_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=v6T54_nRu8EAX83T1Ub&_nc_ht=scontent-bog2-1.xx&oh=00_AfC1BUpkcPNL0FxSbJnSmzBhsrh4MbxvXkx72K6UqN4MfQ&oe=65EAADF0" alt="Plato 2">
+                <div class="card-body">
+                  <h5 class="card-title">Frijoles con chicharrón carnudo, Arroz, aguacate y arepa</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text">Precio: $40.000</p>
+                  <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/10/29/19/15/fire-2900588_640.jpg" alt="Plato 3">
+                <div class="card-body">
+                  <h5 class="card-title">Bandeja light</h5>
+                  <p class="card-text">Arroz, carne molida, huevo, maduro, aguacate, arepa</p>
+                  <p class="card-text">Precio: $36.000</p>
+                  <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/10/29/19/15/fire-2900588_640.jpg" alt="Plato 3">
+                <div class="card-body">
+                  <h5 class="card-title">Calentao "TodoRico"</h5>
+                  <p class="card-text">Arepa con queso, carne, huevo y chicharrón</p>
+                  <p class="card-text">Precio: $38.000</p>
+                  <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/10/29/19/15/fire-2900588_640.jpg" alt="Plato 3">
+                <div class="card-body">
+                  <h5 class="card-title">Cazuela de frijol montañera"</h5>
+                  <p class="card-text">Chorizo, chicharrón, maduro, huevo frito picado adentro con arroz, aguacate y arepa</p>
+                  <p class="card-text">Precio: $36.000</p>
+                  <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://i.ytimg.com/vi/yjCyCxZgmbs/maxresdefault.jpg" alt="Plato 3">
+                <div class="card-body">
+                  <h5 class="card-title">Arroz paisa</h5>
+                  <p class="card-text">Arroz, fríjoles, carne de cerdo, carne de res, chorizo, chicharrón, huevo frito, aguacate, plátano maduro frito, arepa.</p>
+                  <p class="card-text">Precio: $30.000</p>
+                  <a href="pagina_plato_3.html" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- SOPITAS, ACA TOCO HACER OTRO CONTAINER -->
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="sopitas">sopitas</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/772ABN2VLVH65HNEU2RYGU7G3A.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Mondongo</h5>
+                <p class="card-text">Acompañado de: arroz, aguacate, arepa, maduro o banano</p>
+                <p class="card-text">Precio: $35.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.elespectador.com/resizer/8poRYWbGKM2Px7-tbb5CHYAP5kw=/arc-anglerfish-arc2-prod-elespectador/public/NPCOUP725ZBQBCLN6TJ5RUSHHI.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Sancocho</h5>
+                <p class="card-text">Acompañado de: arroz, aguacate y arepa (cola o morro)</p>
+                <p class="card-text">Precio: $38.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://i.ytimg.com/vi/w0fStv6zC4c/maxresdefault.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Sancocho de bagre dorado</h5>
+                <p class="card-text">Acompañado de: arroz, aguacate, arepa, patacón</p>
+                <p class="card-text">Precio: $41.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Otro container para Fredy Parrilla -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="Fredy-parrilla">Fredy parrilla</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://todoenuno.app/wp-content/uploads/2022/04/PARRILLADA-MIXTA.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Parrillada</h5>
+                <p class="card-text">Carne de res, pechuga, costilla, patacon, papa, yuca, morcilla, chorizo, guacamole y hogao</p>
+                <p class="card-text">Precio: $48.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://i.pinimg.com/564x/5b/f8/8e/5bf88e5712c3658669f86acfdb6f1ba4.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Punto de anca</h5>
+                <p class="card-text">Punto de anca</p>
+                <p class="card-text">Precio: $42.500</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://zonau.co/wp-content/uploads/2020/11/churrasco-editado.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Churrasco</h5>
+                <p class="card-text">Churrasco</p>
+                <p class="card-text">Precio: $42.500</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.antojitostipicosdelvalle.com/wp-content/uploads/2023/01/Carne-a-la-plancha.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Lomo de res</h5>
+                <p class="card-text">Lomo de res</p>
+                <p class="card-text">Precio: $47.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://bonapeti.net/files/1200x800/svinskokontrafileskara.webp" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Lomo de cerdo</h5>
+                <p class="card-text">Lomo de cerdo</p>
+                <p class="card-text">Precio: $42.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://i.pinimg.com/736x/7e/5a/ae/7e5aaef076129b1b8cf415d975e6507a.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Sobrebarriga</h5>
+                <p class="card-text">Sobrebarriga</p>
+                <p class="card-text">Precio: $41.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn7.kiwilimon.com/recetaimagen/26648/640x640/23963.jpg.webp" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Costillas BBQ</h5>
+                <p class="card-text">Costillas BBQ</p>
+                <p class="card-text">Precio: $41.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://elrancherito.com.co/wp-content/uploads/2020/06/Pechuga-a-la-parrillada-600x600.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Pechuga a la plancha</h5>
+                <p class="card-text">Pechuga a la plancha</p>
+                <p class="card-text">Precio: $38.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Otro container para especialidades -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="Especialidades">Especialidades</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.alqueria.com.co/sites/default/files/pechuga-de-pollo-en-salsa-de-champinones_2.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Pechuga en champiñones</h5>
+                <p class="card-text">Arroz y papa francesa</p>
+                <p class="card-text">Precio: $45.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.goya.com/media/4081/bistec-encebollado_steak-and-onions.jpg?quality=80" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Bisteck de res</h5>
+                <p class="card-text">Salsa criolla, arepa, maduro y arroz</p>
+                <p class="card-text">Precio: $45.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/06/02/22/07/pork-steak-795596_640.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Bistec de cerdo</h5>
+                <p class="card-text">Salsa criolla, arepa, maduro y arroz</p>
+                <p class="card-text">Precio: $43.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.arecetas.com/wp-content/uploads/2022/04/lomo-de-cerdo-en-salsa-agridulce.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Lomo de cerdo agridulce</h5>
+                <p class="card-text">Arroz, papa francesa y chorizo</p>
+                <p class="card-text">Precio: $44.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://img-global.cpcdn.com/recipes/fb7b104f06dc0d6e/400x400cq70/photo.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Pechuga gratinada</h5>
+                <p class="card-text">Papas a la francesa, chorizo, tajada y ensalasa</p>
+                <p class="card-text">Precio: $38.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Peces -->
+
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="Peces">Peces</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.pajaresdeyerbabuena.com/wp-content/uploads/2020/07/Salmon-en-salsa-maracuya.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Salmon en salsa de maracuya</h5>
+                <p class="card-text">Acompañado de: Arroz, ensalada y patacon</p>
+                <p class="card-text">Precio: $47.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/a3c33a689d64433d594132026891ef61.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Salmon</h5>
+                <p class="card-text">Acompañado de: Arroz, ensalada y patacon</p>
+                <p class="card-text">Precio: $45.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://i.ytimg.com/vi/xaEWO9t8S-c/sddefault.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Salmon en salsa agridulce</h5>
+                <p class="card-text">Acompañado de: Arroz y papa a la francesa</p>
+                <p class="card-text">Precio: $49.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A31483C5-8640-47EC-9FF5-4AE0925718A1/Derivates/DC1390A8-2D5A-49AF-8EDE-ADDF638ECBC4.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">salmon en champiñones</h5>
+                <p class="card-text">Acompñado de: Arroz y papa francesa</p>
+                <p class="card-text">Precio: $51.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://canalcocina.es/medias/_cache/zoom-990e1c6fa918fc4858a236730f83dc7f-920-518.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Salmon gratinado</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $51.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://gusticosdemitierra.com/wp-content/uploads/2020/06/trucha_plancha.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Trucha a la plancha</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $35.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://img-global.cpcdn.com/recipes/5081cdedf17162b7/1200x630cq70/photo.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Trucha en champiñones</h5>
+                <p class="card-text">Acompañado de: Arroz y papa a la francesa</p>
+                <p class="card-text">Precio: $46.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://elrinconcolombiano.com/wp-content/uploads/2022/10/mojarra-frita.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Mojarra</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $36.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/16/44/a3/9d/un-plato-de-bagre-frito.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Bagre dorado</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $39.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://www.unacolombianaencalifornia.com/wp-content/uploads/2016/02/bagre-en-salsa-criolla.jpg" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Bagre en salsa</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $40.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://tofuu.getjusto.com/orioneat-local/resized2/YgchZzRw8xvDjLYt4-1200-1200.webp" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Robalo</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $33.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/270496400_1107915420035463_4201892689902759867_n.jpg?stp=cp0_dst-jpg_e15_p240x240_q65&_nc_cat=105&ccb=1-7&_nc_sid=3d4d07&_nc_ohc=WHBbhMok58UAX9rpJE8&_nc_ht=scontent-bog2-1.xx&oh=00_AfAoXiFy1nfSyWmxx6q6169qAHjif6Tt4l8xSYai_xl5zg&oe=65EB43E4" alt="Plato 1">
+              <div class="card-body">
+                <h5 class="card-title">Trucha gratinada con camarones</h5>
+                <p class="card-text">Acompañado de: Patacon, ensalada y arroz</p>
+                <p class="card-text">Precio: $47.000</p>
+                <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+<!--Pique pues-->  
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="almuerce-pues">Pique pues!</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://pbs.twimg.com/media/FJvleYLXoAAaNUj.jpg:large" alt="Plato 3">
+        <div class="card-body">
+          <h5 class="card-title">Arepa con chorizo</h5>
+          <p class="card-text">Arepa y chorizo</p>
+          <p class="card-text">Precio: $20.000</p>
+          <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://i.ytimg.com/vi/4Qp8DFt79TU/maxresdefault.jpg" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Patacones con hogao</h5>
+            <p class="card-text">Patacones con hogao</p>
+            <p class="card-text">Precio:14.000 $</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://sigra.com/wp-content/uploads/2023/05/CHICHARRON-WEB.png" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Chicharrones carnudos con patacones con hogao</h5>
+            <p class="card-text">Chicharrones carnudos con patacones con hogao</p>
+            <p class="card-text">Precio: $39.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://i.ytimg.com/vi/KK0U39t97ro/sddefault.jpg" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Chicharrones carnudos con Arepa con queso</h5>
+            <p class="card-text">Chicharrones carnudos con Arepa con queso</p>
+            <p class="card-text">Precio: $28.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/239583268_3070186089970113_9013797028671346267_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=Wfsf6uOyDMoAX9mpQfx&_nc_oc=AQlfLKeDL9Vd1StJWlwbJCzSb-L9h8HKoFfTj4qQMSujrIAOfN0RurE2rdwkVhKHhkaRIXgfgYkW4COEwqhGoiO2&_nc_ht=scontent-bog2-1.xx&oh=00_AfBeDNB4nQN6ej5n6ozGEiz4m7bGzN1Wm5nRNk6e13eewg&oe=65EAFC20" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Patacones con guacamole y chicharrón</h5>
+            <p class="card-text">Patacones con guacamole y chicharrón</p>
+            <p class="card-text">Precio: $28.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/17/e3/d6/70/pasate-por-laabuelanita.jpg" alt="Plato 2">
+          <div class="card-body">
+            <h5 class="card-title">Morcillas con arepa con queso</h5>
+            <p class="card-text">Morcillas con arepa con queso</p>
+            <p class="card-text">Precio: $23.000</p>
+            <a href="pagina_plato_1.html" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--Bebidas-->
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="almuerce-pues">Bebidas</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://i.blogs.es/7a7c52/captura-20de-20pantalla-202013-04-27-20a-20la-s-2010.05.44/1366_2000.png" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo de naranja</h5>
+              <p class="card-text">Jugo de naranja</p>
+              <p class="card-text">Precio: $5.000</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://elrinconcolombiano.com/wp-content/uploads/2023/04/Jugo-de-mandarina-receta-colombiana-500x500.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo de mandarina</h5>
+              <p class="card-text">Jugo de mandarina</p>
+              <p class="card-text">Precio: $6.000</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.sieteraices.com/wp-content/uploads/2023/06/limonada-natural.jpeg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Limonada natural</h5>
+              <p class="card-text">Limonada natural</p>
+              <p class="card-text">Precio: $4.700</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F871c88d30c35c1b4d6b170c4e3c85765%2F3456b750-5129-11ec-9fce-7f803fce0253?alt=media&token=111f42a9-fa4e-4aab-a08f-ffb983457eb8" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Limonada cerezada</h5>
+              <p class="card-text">Limonada cerezada</p>
+              <p class="card-text">Precio: $7.500</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.sieteraices.com/wp-content/uploads/2023/06/limonada-de-panela.jpeg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Limonada de panela</h5>
+              <p class="card-text">Limonada de panela</p>
+              <p class="card-text">Precio: $6.000</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://qpanymas.com/wp-content/uploads/2023/03/Limonada-de-coco.png" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Limonada de coco</h5>
+              <p class="card-text">Limonada de coco</p>
+              <p class="card-text">Precio: $6.000</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://lavaquita.co/cdn/shop/products/supermercados_la_vaquita_supervaquita_gaseosa_coca_cola_10_oz_bebidas_liquidas_700x700.jpg?v=1620489361" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Coca-Cola</h5>
+              <p class="card-text">Coca-Cola 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://vaquitaexpress.com.co/media/catalog/product/cache/e89ece728e3939ca368b457071d3c0be/7/7/7702090036930_29.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Colombiana</h5>
+              <p class="card-text">Colombiana 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://vaquitaexpress.com.co/media/catalog/product/cache/e89ece728e3939ca368b457071d3c0be/7/7/7702090029512_38.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Manazana Postobon</h5>
+              <p class="card-text">Manazana Postobon 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://infonutricional.tomatelavida.com.co/wp-content/uploads/2023/06/NARANJA-POSTOBON-PET-250ML.png" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">naranja Postobon</h5>
+              <p class="card-text">Naranja Postobon 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://drinkcentral.co/wp-content/uploads/2023/03/POSTOBON-GASEOSA-250ml-PEPSI.webp" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Pepsi</h5>
+              <p class="card-text">Pepsi 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://copservir.vtexassets.com/arquivos/ids/1171354-800-auto?v=638418787348130000&width=800&height=auto&aspect=true" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Quatro</h5>
+              <p class="card-text">Quatro 400ml</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://brosty.co/wp-content/uploads/2022/04/jugo-hit-tropical-500-ml-1-scaled.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo hit Tropical</h5>
+              <p class="card-text">Jugo hit Tropical</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://elsuper.com.co/wp-content/uploads/2021/11/1f76d7b7-ccdf-4b52-9646-66f6dfd059ab.jpeg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo hit Mora</h5>
+              <p class="card-text">Jugo hit Mora</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://mercaldas.vtexassets.com/arquivos/ids/1297269-800-auto?v=638022330724970000&width=800&height=auto&aspect=true" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo hit piña naranja</h5>
+              <p class="card-text">Jugo hit piña naranja</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://bevgo.com.co/wp-content/uploads/2020/12/2986.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Jugo hit Mango</h5>
+              <p class="card-text">Jugo hit Mango</p>
+              <p class="card-text">Precio: $3.800</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://buenazo.cronosmedia.glr.pe/original/2021/07/02/5f76a61bc32a7c3a4e444044.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate</h5>
+              <p class="card-text">Chocolate</p>
+              <p class="card-text">Precio: $4.000</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/19/6c/40/49/agua-de-panela-con-pan.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Agua de panela</h5>
+              <p class="card-text">Agua de panela</p>
+              <p class="card-text">Precio: $3.500</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://static.wixstatic.com/media/986fb9_7d54d46304f947d9bc73ae735fc70419~mv2.jpg/v1/fill/w_480,h_446,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/986fb9_7d54d46304f947d9bc73ae735fc70419~mv2.jpg" alt="Plato 3">
+            <div class="card-body">
+              <h5 class="card-title">Tinto</h5>
+              <p class="card-text">Tinto</p>
+              <p class="card-text">Precio: $3.500</p>
+              <a href="pagina_plato_2.html" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+    <!-- Agrega más bloques de col-md-4 como estos para más platos -->
+  </div>
+</div>
+
+</body>
+</html>
